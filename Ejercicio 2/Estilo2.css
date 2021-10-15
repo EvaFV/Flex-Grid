@@ -12,7 +12,7 @@ body{
     
     background-color:azure ;
     width: 90%;
-    max-width:  70%;/* 1000px   */
+    max-width:  70%;
     margin: 2% auto;
     height: 88vh;
 
@@ -21,6 +21,9 @@ body{
                             "seccion seccion seccion"
                             "footer footer footer";
 }
+
+/* HEADER */
+
 header{
     padding: 2%;
     background-color: black;
@@ -102,6 +105,9 @@ header{
     width: 100%;
     
 }
+
+/* ASIDE */
+
 aside{
     background-color: rgb(161, 45, 45);
     padding: 5%;
@@ -122,6 +128,8 @@ aside{
     padding: 7%;
 }
 
+/* FOOTER */
+
 footer{
     margin-top: 2%;
     background-color: black;
@@ -132,6 +140,8 @@ footer{
     padding:2%;
     background-color: orange;
 }
+
+/* parte donde lo adapto a modo tableta */
 
 @media screen and (max-width: 768px) {
     

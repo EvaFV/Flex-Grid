@@ -16,6 +16,9 @@ body{
     margin: 2% auto;
     height: 88vh;
 }
+
+/* HEADER */
+
 header{
     padding: 2%;
     background-color: black;
@@ -96,6 +99,9 @@ header{
     width: 100%;
     
 }
+
+/* ASIDE */
+
 aside{
     background-color: rgb(161, 45, 45);
     padding: 5%;
@@ -116,6 +122,8 @@ aside{
     background-color: rgb(241, 241, 66);
     padding: 7%;
 }
+
+/* FOOTER */
 
 footer{
     margin-top: 2%;
