@@ -138,6 +138,44 @@ footer{
     background-color: orange;
 }
 
+/* parte donde lo adapto a tablet */
+
+@media screen and (max-width: 768px) {
+    
+    .contenedor{
+         grid-template-areas:    "header header header"
+                                 "seccion seccion seccion "
+                                 
+                                 "footer footer footer ";
+     }
+ .seccion{
+     display: grid;
+     background-color: yellow;
+     grid-template-columns: repeat(1,2fr);
+         
+         
+ }
+ .contenedor .seccion-div{
+     
+      width: 100%;
+ }
+ aside{
+     display: grid;
+     flex-direction: column;
+     gap: 10%;
+     width: 100%;
+    
+     
+ } 
+ .aside1{
+     padding: 3%;
+     margin-top: 1%;
+ }
+ .aside2{
+    padding: 3%; 
+ }
+}
+
 /* parte donde lo adapto para moviles */
 
 @media screen and (max-width: 360px) {
