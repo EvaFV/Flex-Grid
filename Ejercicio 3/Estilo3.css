@@ -140,24 +140,56 @@ footer{
 
 /* parte donde lo adapto para moviles */
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
     
    .contenedor{
         grid-template-areas:    "header header "
                                 "seccion seccion  "
-                                
                                 "footer footer ";
     }
+.caja1{
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    
+}
+.box1{
+    padding: 6%;
+}
+.box4{
+    padding: 6%;
+}
+
 .seccion{
     display: grid;
     background-color: yellow;
     grid-template-columns: repeat(1,2fr);
     gap: 3%;   
-    padding: 4%;  
+    padding: 8%;  
 }
 .contenedor .seccion-div{
     gap: 10px 20px;
     width: 100%;
+    padding: 8%;
+}
+.articulo1{
+    padding:8%;
+    grid-column: 1/-1;
+}
+.articulo2{
+    padding:8%;
+    grid-column: 1/-1;
+}
+.articulo3{
+    padding:8%;
+    grid-column: 1/-1;
+}
+.articulo4{
+    padding:8%;
+    grid-column: 1/-1;
+}
+.articulo5{
+    padding:7%;
 }
 aside{
     display: grid;
@@ -168,13 +200,15 @@ aside{
     
 } 
 .aside1{
-    padding: 3%;
+    padding: 5%;
     margin-top: 1%;
 }
 .aside2{
-   padding: 3%; 
+   padding: 5%; 
 }
-
+.footer{
+    padding: 5%;
+}
 
     
 }
